@@ -1,4 +1,4 @@
-# Note: This code is adopted from Divam Gupta's GitHub repository. Many thanks to her and her team for this
+# Note: This code is adopted from Divam Gupta's GitHub repository. Many thanks to her and her team for this.
 def main():
     from . import cli_interface
     cli_interface.main()
