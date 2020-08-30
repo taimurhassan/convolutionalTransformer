@@ -1,7 +1,6 @@
 # Incremental Instance Segmentation Framework for Recognizing Extremely Cluttered Baggage Threats
 
-## Code Documentation
-This repository contains the source code as well as some additional results of our proposed incremental instance segmentation framework as illustrated in a block diagram below:
+This repository contains the source code (based on TensorFlow 2.2.0 and Keras) as well as some additional results of our proposed incremental instance segmentation framework as illustrated in a block diagram below:
 
 ![Block-Diagram](/images/BD.png) 
 <p align="center"> Block Diagram of the Proposed Framework</p>
@@ -40,6 +39,18 @@ This repository contains the source code as well as some additional results of o
 4) Use 'highlighterGDXray.m' or 'highlighterSIXray.m' files to visualize instance segmentation results on GDXray and SIXray datasets, respectively.
 5) We have also provided some converter scripts to convert e.g. original SIXray XML annotations into MATLAB structures, to port TF keras models into MATLAB etc.
 6) Apart from this, the ‘results’ folder in this package contains some additional results obtained by the proposed framework.
+
+## Citation
+If you use the proposed incremental instance segmentation (or any part of this code) in your work, then please cite the following paper:
+
+```
+@article{incInsSeg,
+  title   = {Incremental Instance Segmentation Framework for Recognizing Extremely Cluttered Baggage Threats},
+  author  = {Taimur Hassan and Samet Akcay and Mohammed Bennamoun and Salman Khan and Naoufel Werghi},
+  journal = {Submitted in IEEE Transactions on Circuits and Systems for Video Technology},
+  year = {2020}
+}
+```
 
 ## Contact
 Please feel free to contact us in case of any query at: taimur.hassan@ku.ac.ae
