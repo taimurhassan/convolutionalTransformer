@@ -38,12 +38,14 @@ This repository contains the source code (developed using <b>TensorFlow 2.2.0</b
 
 ## Steps
 <p align="justify">
+   
 1) Use 'trainer.py' to incrementally train the segmentation network. The following script will also save the model instances in the h5 file.
 2) Afterwards, use 'regressor.m' file to train the regression model. This script will also save the trained regression model in a mat file.
 3) Use 'tester.py' file to extract segmentation results for each model (the model results will be saved in 'segmentation_resultsK' folder.
 4) Use 'highlighterGDXray.m' or 'highlighterSIXray.m' files to visualize instance segmentation results on GDXray and SIXray datasets, respectively.
 5) We have also provided some converter scripts to convert e.g. original SIXray XML annotations into MATLAB structures, to port TF keras models into MATLAB etc.
 6) Apart from this, the ‘results’ folder in this package contains some additional results obtained by the proposed framework.
+
 </p>
 
 ## Citation
