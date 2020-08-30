@@ -9,19 +9,19 @@ This repository contains the source code (developed using <b>TensorFlow 2.2.0</b
 ## Installation and Configuration
 <p align="justify">
    
-1) Please download and install Anaconda (also install MATLAB R2020a with deep learning, image processing and computer vision toolbox)
+1) Platform: Anaconda and MATLAB R2020a (with deep learning, image processing and computer vision toolbox).
 2) Install required packages from the provided ‘environment.yml’ file or alternatively you can install following packages yourself:
-   - Python 3.7.4
-   - TensorFlow 2.2.0 
+   - Python 3.7.4 or above
+   - TensorFlow 2.2.0 or above 
    - Keras 2.0.0 or above
-   - OpenCV 4.2
+   - OpenCV 4.2 or above
    - imgaug 0.2.9 or above
    - tqdm   
-3) Download the desired dataset
+3) Download the desired dataset:
    - GDXray [URL](https://domingomery.ing.puc.cl/material/gdxray/)
    - SIXray [URL](https://github.com/MeioJane/SIXray)
    - COCO-2017 [URL](https://cocodataset.org/#download)
-4) Create the two folders named as 'trainingDataset' and 'testingDataset'
+4) Create the two folders named as 'trainingDataset' and 'testingDataset'.
 5) Put training images of SIXray or GDXray dataset in '…\trainingDataset\trainImages_K' folder where 'K' represents the iteration or model instance.
 6) Put training annotation in '…\trainingDataset\trainGT_K' folder.
 7) Put validation images in '…\trainingDataset\valImages_K' folder.
