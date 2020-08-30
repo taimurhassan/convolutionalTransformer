@@ -32,7 +32,7 @@ This repository contains the source code (developed using <b>TensorFlow 2.2.0</b
 11) For training and testing the regression model, the instance patches should be placed in 'trainingDataset\instances\train' and 'testingDataset\instances\test' folders, respectively.
 12) Apart from this, the 'segmentation_resultsK' folder in 'testingDataset' will contains the segmented results.
 13) Provide training configurations in ‘config.py’ file.
-14) We also provided the summary of the proposed instance-aware segmentation model in 'model_summary.txt'.
+14) We also provided the summary of the proposed segmentation model in 'model_summary.txt'.
 
 </p>
 
