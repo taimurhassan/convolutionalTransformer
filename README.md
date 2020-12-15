@@ -1,4 +1,4 @@
-# Incremental Instance Segmentation Framework for Recognizing Extremely Cluttered Baggage Threats
+# Regressor Driven Incremental Instance Segmentation for Recognizing Cluttered Baggage Threats from Security X-ray Scans
 <p align="justify">
 This repository contains the source code (developed using <b>TensorFlow 2.2.0</b> and <b>Keras</b>) and also some additional results of the proposed regression-based incremental instance segmentation framework.
 </p>
