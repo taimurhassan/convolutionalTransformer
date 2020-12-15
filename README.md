@@ -54,7 +54,7 @@ If you use the proposed incremental instance segmentation (or any part of this c
 </p>
 
 ```
-@article{incInsSeg,
+@article{regIncInsSeg,
   title   = {Incremental Instance Segmentation Framework for Recognizing Extremely Cluttered Baggage Threats},
   author  = {Taimur Hassan and Samet Akcay and Mohammed Bennamoun and Salman Khan and Naoufel Werghi},
   journal = {Submitted in IEEE Transactions on Circuits and Systems for Video Technology},
