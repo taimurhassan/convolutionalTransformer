@@ -1,4 +1,4 @@
-# Regressor Driven Incremental Instance Segmentation for Recognizing Cluttered Baggage Threats from Security X-ray Scans
+# Convolutional Transformer for Incremental Baggage Threat Instance Segmentation
 <p align="justify">
 This repository contains the source code (developed using <b>TensorFlow 2.2.0</b> and <b>Keras</b>) and also some additional results of the proposed regression-based incremental instance segmentation framework.
 </p>
@@ -54,11 +54,11 @@ If you use the proposed incremental instance segmentation (or any part of this c
 </p>
 
 ```
-@article{regIncInsSeg,
+@article{convTransformer,
   title   = {Incremental Instance Segmentation Framework for Recognizing Extremely Cluttered Baggage Threats},
-  author  = {Taimur Hassan and Samet Akcay and Mohammed Bennamoun and Salman Khan and Naoufel Werghi},
-  journal = {Submitted in IEEE Transactions on Circuits and Systems for Video Technology},
-  year = {2020}
+  author  = {Taimur Hassan and Samet Akcay and Bilal Hassan and Mohammed Bennamoun and Naoufel Werghi},
+  journal = {Submitted in IEEE Transactions on Multimedia},
+  year = {2022}
 }
 ```
 
