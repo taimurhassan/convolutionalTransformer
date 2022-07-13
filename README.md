@@ -1,9 +1,9 @@
 # Convolutional Transformer for Incremental Baggage Threat Instance Segmentation
 <p align="justify">
-This repository contains the source code (developed using <b>TensorFlow 2.2.0</b> and <b>Keras</b>) and also some additional results of the proposed regression-based incremental instance segmentation framework.
+This repository contains the source code (developed using <b>TensorFlow 2.2.0</b> and <b>Keras</b>) and also some additional results of the proposed incremental convolutional transformer model.
 </p>
 
-![Block-Diagram](/images/BD.png) 
+![Block-Diagram](/images/BlockDiagram3N.jpg) 
 <p align="center"> Block Diagram of the Proposed Framework</p>
 
 ## Installation and Configuration
@@ -23,7 +23,7 @@ This repository contains the source code (developed using <b>TensorFlow 2.2.0</b
    - OPIXray [URL](https://github.com/OPIXray-author/OPIXray)
    - COCO-2017 [URL](https://cocodataset.org/#download)
 4) Create the two folders named as 'trainingDataset' and 'testingDataset'.
-5) Put training images of SIXray or GDXray dataset in '…\trainingDataset\trainImages_K' folder where 'K' represents the iteration or model instance.
+5) Put training images of SIXray, OPIXray, or GDXray dataset in '…\trainingDataset\trainImages_K' folder where 'K' represents the iteration or model instance.
 6) Put training annotation in '…\trainingDataset\trainGT_K' folder.
 7) Put validation images in '…\trainingDataset\valImages_K' folder.
 8) Put validation annotations in '…\trainingDataset\valGT_K' folder.
@@ -43,25 +43,11 @@ This repository contains the source code (developed using <b>TensorFlow 2.2.0</b
 1) Use 'trainer.py' to incrementally train the segmentation network. The following script will also save the model instances in the h5 file.
 2) Afterwards, use 'regressor.m' file to train the regression model. This script will also save the trained regression model in a mat file.
 3) Use 'tester.py' file to extract segmentation results for each model (the model results will be saved in 'segmentation_resultsK' folder.
-4) Use 'highlighterGDXray.m' or 'highlighterSIXray.m' files to visualize instance segmentation results on GDXray and SIXray datasets, respectively.
+4) Use highlighter files to visualize instance segmentation results on GDXray, OPIXray and SIXray datasets, respectively.
 5) We have also provided some converter scripts to convert e.g. original SIXray XML annotations into MATLAB structures, to port TF keras models into MATLAB etc.
 6) Apart from this, the ‘results’ folder in this package contains some additional results obtained by the proposed framework.
 
 </p>
-
-## Citation
-<p align="justify">
-If you use the proposed incremental instance segmentation (or any part of this code) in your work, then please cite the following paper:
-</p>
-
-```
-@article{convTransformer,
-  title   = {Incremental Instance Segmentation Framework for Recognizing Extremely Cluttered Baggage Threats},
-  author  = {Taimur Hassan and Samet Akcay and Bilal Hassan and Mohammed Bennamoun and Naoufel Werghi},
-  journal = {Submitted in IEEE Transactions on Multimedia},
-  year = {2022}
-}
-```
 
 ## Contact
 Please feel free to contact us in case of any query at: taimur.hassan@ku.ac.ae
