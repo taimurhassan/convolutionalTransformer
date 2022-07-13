@@ -20,6 +20,7 @@ This repository contains the source code (developed using <b>TensorFlow 2.2.0</b
 3) Download the desired dataset:
    - GDXray [URL](https://domingomery.ing.puc.cl/material/gdxray/)
    - SIXray [URL](https://github.com/MeioJane/SIXray)
+   - OPIXray [URL](https://github.com/OPIXray-author/OPIXray)
    - COCO-2017 [URL](https://cocodataset.org/#download)
 4) Create the two folders named as 'trainingDataset' and 'testingDataset'.
 5) Put training images of SIXray or GDXray dataset in '…\trainingDataset\trainImages_K' folder where 'K' represents the iteration or model instance.
