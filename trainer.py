@@ -37,7 +37,7 @@ def evaluateModel(model, rPath):
 def generateModelInstance(model, prevClasses, newClasses, activationFlag = True):
     newModel = net(n_classes = prevClasses + newClasses, height=imgHeight, width= imgWidth, addActivation = activationFlag)
     #model.summary()
-    #newModel.summary()
+    #newModel.summary() 
     
     for i in range(1,len(newModel.layers)-1):
         weights = newModel.layers[i].get_weights()
