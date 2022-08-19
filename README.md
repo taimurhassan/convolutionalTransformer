@@ -1,10 +1,7 @@
-# Convolutional Transformer for Incremental Baggage Threat Instance Segmentation
+# Incremental Convolutional Transformer for Baggage Threat Instance Segmentation
 <p align="justify">
 This repository contains the source code (developed using <b>TensorFlow 2.2.0</b> and <b>Keras</b>) and also some additional results of the proposed incremental convolutional transformer model.
 </p>
-
-![Block-Diagram](/images/BlockDiagram3N.jpg) 
-<p align="center"> Block Diagram of the Proposed Framework</p>
 
 ## Installation and Configuration
 <p align="justify">
