@@ -4,7 +4,7 @@ This repository contains the source code (developed using <b>TensorFlow 2.2.0</b
 </p>
 
 ## "Important" Models architectures are available in 'model_summary.txt', and the training folders hierarchy is given below:
-![folders](/images/hierarchy.png)
+![folders](/images/hierarchy2.png)
 
 ## Demo Videos and Additional Results -> [Google Drive](https://drive.google.com/file/d/1ksZ7zva-htZAcuJAbARP-vKVJZg0J7pY/view?usp=sharing)
 ## Installation and Configuration
