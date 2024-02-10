@@ -3,6 +3,9 @@
 This repository contains the source code (developed using <b>TensorFlow 2.2.0</b> and <b>Keras</b>) and also some additional results of the proposed incremental convolutional transformer model.
 </p>
 
+## "Important" Models architectures are available in 'model_summary.txt', and the training folders hierarchy is given below:
+![folders](/images/hierarchy.png)
+
 ## Demo Videos and Additional Results -> [Google Drive](https://drive.google.com/file/d/1ksZ7zva-htZAcuJAbARP-vKVJZg0J7pY/view?usp=sharing)
 ## Installation and Configuration
 <p align="justify">
