@@ -63,4 +63,4 @@ If you use this framework (or any part of this code in your research), please ci
 ```
 
 ## Contact
-Please feel free to contact us in case of any query at: taimur.hassan@ku.ac.ae
+Please feel free to contact us in case of any query at: taimur.hassan@adu.ac.ae
