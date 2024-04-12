@@ -50,5 +50,17 @@ This repository contains the source code (developed using <b>TensorFlow 2.2.0</b
 
 </p>
 
+## Citation
+If you use this framework (or any part of this code in your research), please cite the following paper:
+
+```
+@article{Hassan2024ICT,
+  title   = {Incremental Convolutional Transformer for Baggage Threat Detection},
+  author  = {Hina Raja and Taimur Hassan and Muhammad Usman Akram and Naoufel Werghi},
+  journal = {Pattern Recognition},
+  year = {2024}
+}
+```
+
 ## Contact
 Please feel free to contact us in case of any query at: taimur.hassan@ku.ac.ae
