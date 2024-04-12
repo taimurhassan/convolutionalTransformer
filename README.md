@@ -56,7 +56,7 @@ If you use this framework (or any part of this code in your research), please ci
 ```
 @article{Hassan2024ICT,
   title   = {Incremental Convolutional Transformer for Baggage Threat Detection},
-  author  = {Hina Raja and Taimur Hassan and Muhammad Usman Akram and Naoufel Werghi},
+  author  = {Taimur Hassan and Bilal Hassan and Muhammad Owais and Divya Velayudhan and Jorge Dias and Mohammed Ghazal and Naoufel Werghi},
   journal = {Pattern Recognition},
   year = {2024}
 }
